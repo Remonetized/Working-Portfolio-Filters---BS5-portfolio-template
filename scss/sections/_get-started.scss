@@ -1,10 +1,9 @@
 @use '../custom' as *;
-@use '../components/mixins' as *;
-
+@use  '../components/mixins' as *;
 
 .get-started {
     padding: 4rem 0;
-    background-color: $gray-200;
+    background-color: $gray-200;    
 }
 
 .cta-info {
@@ -29,19 +28,19 @@
     }
 }
 
-// FORM CONTENT 
+// Form Content 
 .form {
     padding: 3rem;
 
     button {
         border: none;
         color: $white;
-        text-transform: capitalize;
 
         a {
             color: $white;
             text-decoration: none;
             text-transform: capitalize;
         }
+        
     }
 }

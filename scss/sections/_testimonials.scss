@@ -12,14 +12,12 @@
         border-radius: 0.625rem;
         height: auto;
         text-align: center;
-
         i {
             font-size: 1.5rem;
             color: rgba($primary, 0.7);
         }
 
         .ratings {
-
 
             i {
                 color: rgba($primary, 0.7);
@@ -40,7 +38,7 @@
         }
     }
 
-    &__name{
+    &__name {
         padding-top: 3rem;
         margin-bottom: 1rem;
         text-align: center;

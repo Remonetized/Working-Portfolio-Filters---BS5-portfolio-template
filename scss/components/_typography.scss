@@ -12,20 +12,19 @@
     }
 
     &--description {
-        font-size: 1rem;
         display: block;
+        font-size: 1rem;
         margin-top: 1.2rem;
         text-transform: none;
 
         @include media-breakpoint-up(lg) {
             font-size: 1.4rem;
             display: inline-block;
-
         }
     }
 }
 
-// HEADING LINE 
+// Heading Line 
 .heading-line::before {
     content: "";
     width: 10rem;
@@ -45,7 +44,8 @@
     background-color: $primary;
 }
 
-// DISPLAY 3 
+// Display 3 
+
 .display-3 {
     font-family: 'Poppins', sans-serif;
 
@@ -64,22 +64,16 @@
             font-size: 1.8rem;
         }
 
-
     }
 }
 
-// BORDER RIGHT 
+// Border-Right 
 .border-right {
-    border-right: 0;
-
-    @include media-breakpoint-up(sm) {
-        border-right: 0.1rem solid $gray-300;
-        height: 100%;
-    }
+    border-right: 0.1rem solid $gray-300;
+    height: 100%;
 }
 
-
-// GRADIENT BG 
-.gradient  {
-    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+// Gradient BG 
+.gradient {
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));   
 }
